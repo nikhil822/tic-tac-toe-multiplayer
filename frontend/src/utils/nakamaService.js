@@ -11,7 +11,7 @@ const OP_CODE_REMATCH = 6;
 const OP_CODE_READY = 7;
 
 // Nakama server config - update these for your deployment
-const NAKAMA_HOST = import.env.VITE_BACKEND_URL;
+const NAKAMA_HOST = import.meta.env.VITE_BACKEND_URL;
 const NAKAMA_PORT = '7350';
 const NAKAMA_USE_SSL = false;
 const SERVER_KEY = 'defaultkey';
